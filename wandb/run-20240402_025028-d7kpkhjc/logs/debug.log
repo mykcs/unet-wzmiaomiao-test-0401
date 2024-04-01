@@ -1,0 +1,69 @@
+2024-04-02 02:50:28,002 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Current SDK version is 0.16.5
+2024-04-02 02:50:28,002 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Configure stats pid to 9122
+2024-04-02 02:50:28,002 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Loading settings from /Users/myk/.config/wandb/settings
+2024-04-02 02:50:28,002 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Loading settings from /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/settings
+2024-04-02 02:50:28,002 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-02 02:50:28,002 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-02 02:50:28,002 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-02 02:50:28,002 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-02 02:50:28,002 INFO    MainThread:9122 [wandb_init.py:_log_setup():527] Logging user logs to /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_025028-d7kpkhjc/logs/debug.log
+2024-04-02 02:50:28,002 INFO    MainThread:9122 [wandb_init.py:_log_setup():528] Logging internal logs to /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_025028-d7kpkhjc/logs/debug-internal.log
+2024-04-02 02:50:28,002 INFO    MainThread:9122 [wandb_init.py:init():567] calling init triggers
+2024-04-02 02:50:28,002 INFO    MainThread:9122 [wandb_init.py:init():574] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'CNN', 'dataset': 'CIFAR-100', 'epochs': 10}
+2024-04-02 02:50:28,003 INFO    MainThread:9122 [wandb_init.py:init():617] starting backend
+2024-04-02 02:50:28,003 INFO    MainThread:9122 [wandb_init.py:init():621] setting up manager
+2024-04-02 02:50:28,003 INFO    MainThread:9122 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-02 02:50:28,003 INFO    MainThread:9122 [wandb_init.py:init():629] backend started and connected
+2024-04-02 02:50:28,007 INFO    MainThread:9122 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-02 02:50:28,008 INFO    MainThread:9122 [wandb_init.py:init():721] updated telemetry
+2024-04-02 02:50:28,024 INFO    MainThread:9122 [wandb_init.py:init():754] communicating run to backend with 90.0 second timeout
+2024-04-02 02:51:58,403 ERROR   MainThread:9122 [wandb_init.py:init():780] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-04-02 02:51:58,706 ERROR   MainThread:9122 [wandb_init.py:init():1205] Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1187, in init
+    run = wi.init()
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 786, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-04-02 02:52:04,552 INFO    MainThread:9122 [wandb_settings.py:_apply_login():1941] Applying login settings: {}
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Current SDK version is 0.16.5
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Configure stats pid to 9122
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Loading settings from /Users/myk/.config/wandb/settings
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Loading settings from /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/settings
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_init.py:_log_setup():527] Logging user logs to /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_025204-3w4b2d6s/logs/debug.log
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_init.py:_log_setup():528] Logging internal logs to /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_025204-3w4b2d6s/logs/debug-internal.log
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_init.py:init():567] calling init triggers
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_init.py:init():574] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'CNN', 'dataset': 'CIFAR-100', 'epochs': 10}
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_init.py:init():617] starting backend
+2024-04-02 02:52:04,558 INFO    MainThread:9122 [wandb_init.py:init():621] setting up manager
+2024-04-02 02:52:04,559 INFO    MainThread:9122 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-02 02:52:04,559 INFO    MainThread:9122 [wandb_init.py:init():629] backend started and connected
+2024-04-02 02:52:04,564 INFO    MainThread:9122 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-02 02:52:04,565 INFO    MainThread:9122 [wandb_init.py:init():721] updated telemetry
+2024-04-02 02:52:04,587 INFO    MainThread:9122 [wandb_init.py:init():754] communicating run to backend with 90.0 second timeout
+2024-04-02 02:52:07,666 WARNING MainThread:9122 [wandb_init.py:init():1209] interrupted
+Traceback (most recent call last):
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1187, in init
+    run = wi.init()
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 757, in init
+    result = run_init_handle.wait(
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

@@ -1,0 +1,41 @@
+wandb_version: 1
+
+learning_rate:
+  desc: null
+  value: 0.01
+architecture:
+  desc: null
+  value: unet
+dataset:
+  desc: null
+  value: DRIVE
+epochs:
+  desc: null
+  value: 5
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.19
+    cli_version: 0.16.5
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1711996900.0
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.8.19
+      5: 0.16.5
+      8:
+      - 4
+      - 5
+      13: darwin-arm64

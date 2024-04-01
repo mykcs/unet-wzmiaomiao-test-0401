@@ -1,0 +1,105 @@
+2024-04-02 02:41:40,558 INFO    StreamThr :8600 [internal.py:wandb_internal():86] W&B internal server running at pid: 8600, started at: 2024-04-02 02:41:40.557812
+2024-04-02 02:41:40,559 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status
+2024-04-02 02:41:40,559 INFO    WriterThread:8600 [datastore.py:open_for_write():87] open: /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_024140-7nfgfzyf/run-7nfgfzyf.wandb
+2024-04-02 02:41:40,561 DEBUG   SenderThread:8600 [sender.py:send():379] send: header
+2024-04-02 02:41:40,575 DEBUG   SenderThread:8600 [sender.py:send():379] send: run
+2024-04-02 02:41:41,393 INFO    SenderThread:8600 [dir_watcher.py:__init__():211] watching files in: /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_024140-7nfgfzyf/files
+2024-04-02 02:41:41,393 INFO    SenderThread:8600 [sender.py:_start_run_threads():1124] run started: 7nfgfzyf with start time 1711996900.545334
+2024-04-02 02:41:41,403 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: check_version
+2024-04-02 02:41:41,403 DEBUG   SenderThread:8600 [sender.py:send_request():406] send_request: check_version
+2024-04-02 02:41:42,048 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: run_start
+2024-04-02 02:41:42,051 DEBUG   HandlerThread:8600 [system_info.py:__init__():26] System info init
+2024-04-02 02:41:42,051 DEBUG   HandlerThread:8600 [system_info.py:__init__():41] System info init done
+2024-04-02 02:41:42,051 INFO    HandlerThread:8600 [system_monitor.py:start():194] Starting system monitor
+2024-04-02 02:41:42,051 INFO    SystemMonitor:8600 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-02 02:41:42,052 INFO    HandlerThread:8600 [system_monitor.py:probe():214] Collecting system info
+2024-04-02 02:41:42,052 INFO    SystemMonitor:8600 [interfaces.py:start():190] Started cpu monitoring
+2024-04-02 02:41:42,052 DEBUG   HandlerThread:8600 [system_info.py:probe():150] Probing system
+2024-04-02 02:41:42,053 INFO    SystemMonitor:8600 [interfaces.py:start():190] Started disk monitoring
+2024-04-02 02:41:42,059 INFO    SystemMonitor:8600 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-02 02:41:42,061 INFO    SystemMonitor:8600 [interfaces.py:start():190] Started memory monitoring
+2024-04-02 02:41:42,064 INFO    SystemMonitor:8600 [interfaces.py:start():190] Started network monitoring
+2024-04-02 02:41:42,069 DEBUG   HandlerThread:8600 [system_info.py:_probe_git():135] Probing git
+2024-04-02 02:41:42,096 DEBUG   HandlerThread:8600 [system_info.py:_probe_git():143] Probing git done
+2024-04-02 02:41:42,096 DEBUG   HandlerThread:8600 [system_info.py:probe():198] Probing system done
+2024-04-02 02:41:42,096 DEBUG   HandlerThread:8600 [system_monitor.py:probe():223] {'os': 'macOS-14.3.1-arm64-arm-64bit', 'python': '3.8.19', 'heartbeatAt': '2024-04-01T18:41:42.054613', 'startedAt': '2024-04-01T18:41:40.538076', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/train-wandb.py', 'codePathLocal': 'train-wandb.py', 'codePath': 'train-wandb.py', 'git': {'remote': 'https://github.com/mykcs/unet-wzmiaomiao-test-0401.git', 'commit': 'f4c876ad4c5413438150a945546c07682e7be064'}, 'email': 'kagura0108@outlook.com', 'root': '/Users/myk/PyPjcts/unet-wzmiaomiao-test-0401', 'host': 'miyuki-M2Max', 'username': 'myk', 'executable': '/Users/myk/anaconda3/envs/seg-test-0401/bin/python', 'cpu_count': 12, 'cpu_count_logical': 12, 'disk': {'/': {'total': 926.3517189025879, 'used': 821.296459197998}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 32.0}}
+2024-04-02 02:41:42,096 INFO    HandlerThread:8600 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-02 02:41:42,096 INFO    HandlerThread:8600 [system_monitor.py:probe():227] Publishing system info
+2024-04-02 02:41:42,096 DEBUG   HandlerThread:8600 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-02 02:41:42,400 INFO    Thread-12 :8600 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_024140-7nfgfzyf/files/conda-environment.yaml
+2024-04-02 02:41:44,927 DEBUG   HandlerThread:8600 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-02 02:41:44,928 INFO    HandlerThread:8600 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-02 02:41:44,943 DEBUG   SenderThread:8600 [sender.py:send():379] send: files
+2024-04-02 02:41:44,943 INFO    SenderThread:8600 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-02 02:41:45,011 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-02 02:41:45,012 DEBUG   SenderThread:8600 [sender.py:send_request():406] send_request: python_packages
+2024-04-02 02:41:45,012 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-02 02:41:45,012 DEBUG   SenderThread:8600 [sender.py:send_request():406] send_request: stop_status
+2024-04-02 02:41:45,013 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-02 02:41:45,413 INFO    Thread-12 :8600 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_024140-7nfgfzyf/files/conda-environment.yaml
+2024-04-02 02:41:45,413 INFO    Thread-12 :8600 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_024140-7nfgfzyf/files/wandb-metadata.json
+2024-04-02 02:41:45,413 INFO    Thread-12 :8600 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_024140-7nfgfzyf/files/requirements.txt
+2024-04-02 02:41:45,497 DEBUG   SenderThread:8600 [sender.py:send():379] send: telemetry
+2024-04-02 02:41:46,134 INFO    wandb-upload_0:8600 [upload_job.py:push():131] Uploaded file /var/folders/np/lwj6dcgj7vgbzkyrpwn082pr0000gn/T/tmpssuea9j0wandb/nnsil1jl-wandb-metadata.json
+2024-04-02 02:41:46,498 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:41:51,514 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:41:56,531 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:42:00,016 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-02 02:42:00,017 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-02 02:42:00,017 DEBUG   SenderThread:8600 [sender.py:send_request():406] send_request: stop_status
+2024-04-02 02:42:02,281 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:42:07,298 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:42:12,313 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:42:13,551 INFO    Thread-12 :8600 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_024140-7nfgfzyf/files/config.yaml
+2024-04-02 02:42:15,021 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-02 02:42:15,022 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-02 02:42:15,023 DEBUG   SenderThread:8600 [sender.py:send_request():406] send_request: stop_status
+2024-04-02 02:42:17,568 INFO    Thread-12 :8600 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_024140-7nfgfzyf/files/output.log
+2024-04-02 02:42:18,040 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:42:19,578 INFO    Thread-12 :8600 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_024140-7nfgfzyf/files/output.log
+2024-04-02 02:42:23,065 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:42:28,084 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:42:33,097 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:42:38,120 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:42:42,069 DEBUG   SystemMonitor:8600 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-02 02:42:42,070 DEBUG   SenderThread:8600 [sender.py:send():379] send: telemetry
+2024-04-02 02:42:42,070 DEBUG   SenderThread:8600 [sender.py:send():379] send: stats
+2024-04-02 02:42:44,079 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:42:44,673 INFO    Thread-12 :8600 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/wandb/run-20240402_024140-7nfgfzyf/files/config.yaml
+2024-04-02 02:42:49,350 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:42:54,360 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:42:59,385 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:43:04,399 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:43:09,409 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:43:12,076 DEBUG   SenderThread:8600 [sender.py:send():379] send: stats
+2024-04-02 02:43:15,085 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:43:20,101 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:43:25,116 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:43:30,127 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:43:35,139 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:43:40,154 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:43:42,083 DEBUG   SenderThread:8600 [sender.py:send():379] send: stats
+2024-04-02 02:43:46,096 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:43:51,113 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:43:56,131 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:44:01,140 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:44:06,151 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:44:11,168 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:44:12,084 DEBUG   SenderThread:8600 [sender.py:send():379] send: stats
+2024-04-02 02:44:17,103 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:44:22,118 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:44:27,135 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:44:32,154 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:44:37,167 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:44:42,086 DEBUG   SenderThread:8600 [sender.py:send():379] send: stats
+2024-04-02 02:44:43,093 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:44:48,104 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:44:53,121 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:44:58,137 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:45:03,150 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:45:08,163 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:45:12,086 DEBUG   SenderThread:8600 [sender.py:send():379] send: stats
+2024-04-02 02:45:14,094 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:45:19,109 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:45:24,129 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report
+2024-04-02 02:45:29,147 DEBUG   HandlerThread:8600 [handler.py:handle_request():146] handle_request: status_report

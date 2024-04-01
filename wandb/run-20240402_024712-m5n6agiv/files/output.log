@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/train-wandb.py", line 219, in <module>
+    main(args)
+  File "/Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/train-wandb.py", line 124, in main
+    mean_loss, lr = train_one_epoch(model, optimizer, train_loader, device, epoch, num_classes,
+  File "/Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/train_utils/train_and_eval.py", line 60, in train_one_epoch
+    output = model(image)
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/myk/PyPjcts/unet-wzmiaomiao-test-0401/src/unet.py", line 85, in forward
+    x1 = self.in_conv(x)
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/Users/myk/anaconda3/envs/seg-test-0401/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,

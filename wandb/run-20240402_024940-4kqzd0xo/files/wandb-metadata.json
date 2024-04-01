@@ -1,0 +1,36 @@
+{
+    "os": "macOS-14.3.1-arm64-arm-64bit",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-04-01T18:49:42.190712",
+    "startedAt": "2024-04-01T18:49:40.987157",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "1.ipynb",
+    "codePathLocal": "1.ipynb",
+    "root": "/Users/myk/PyPjcts/unet-wzmiaomiao-test-0401",
+    "git": {
+        "remote": "https://github.com/mykcs/unet-wzmiaomiao-test-0401.git",
+        "commit": "f4c876ad4c5413438150a945546c07682e7be064"
+    },
+    "email": "kagura0108@outlook.com",
+    "host": "miyuki-M2Max",
+    "username": "myk",
+    "executable": "/Users/myk/anaconda3/envs/seg-test-0401/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 12,
+    "disk": {
+        "/": {
+            "total": 926.3517189025879,
+            "used": 821.3119621276855
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}
